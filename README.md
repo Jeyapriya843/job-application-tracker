@@ -1,16 +1,51 @@
-# React + Vite
+# Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js productivity app to track job applications with full CRUD operations, 
+status management, and localStorage persistence.
 
-Currently, two official plugins are available:
+## Live Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add, edit, and delete job applications
+- Status tracking: Applied | Interview Scheduled | Rejected | Offered
+- Filter applications by status
+- Live stats dashboard showing count per status
+- Data persists on page refresh using localStorage
+- Fully responsive on mobile and desktop
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js 18
+- JavaScript (ES6+)
+- CSS3 (Inline styles + Media queries)
+- React Hooks (useState, useEffect)
+- localStorage for data persistence
+- Vite (Build tool)
 
-## Expanding the ESLint configuration
+## React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `useState` with lazy initializer for localStorage sync
+- `useEffect` for side effects and data persistence
+- Controlled components for form handling
+- Conditional rendering for Add/Edit mode toggle
+- Immutable state updates with spread operator
+
+## Getting Started
+
+```bash
+git clone https://github.com/Jeyapriya843/job-application-tracker.git
+cd job-application-tracker
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Screenshots
+
+> Add a screenshot of your app here
+
+## Author
+
+**Jeyapriya Selvaganapathy**  
+[LinkedIn](https://linkedin.com/in/jeyapriya-selvaganapathy) | 
+[GitHub](https://github.com/Jeyapriya843)
